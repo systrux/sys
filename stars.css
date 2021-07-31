@@ -1,0 +1,90 @@
+body {
+    background: linear-gradient(-3870deg, #000000, #00111f, #001d35, #00244d);
+    background-size: 4100% 250%;
+    animation: gradient 50s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+@keyframes particleAnimation
+{
+    from {
+        right:-100px;
+    }
+    to {
+        right: calc( 100% + 100px );
+    }
+}
+
+
+.sta{
+  position:fixed; 
+  right:0px;
+  top:50px;
+  width:1px;
+  height:0px;
+  background-color:white;
+  position:fixed;
+  animation-name:particleAnimation;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.sta::before{
+  position:absolute;
+  display:block;
+  content:"";
+  width:100px;
+  right:1px;
+  top:0px;
+  height:1px;
+  background: linear-gradient(to left, rgba(0,0,0,0) 0%,rgb(255, 255, 255) 100%); 
+}
+.r1 {
+    animation-duration:12s;
+}
+.r2 {
+    animation-duration:8s;
+    top: 9%;
+}
+.r3 {
+    animation-duration:6s;
+    top: 24%;
+}
+.r4 {
+    animation-duration:11s;
+    top: 32%
+}
+.r5 {
+    animation-duration:7s;
+    top: 49%
+}
+.r6 {
+    animation-duration:4s;
+    top: 69%
+}
+.r7 {
+    animation-duration:20s;
+    top: 71%
+}
+.r8 {
+    animation-duration:14s;
+    top: 84%
+}
+.r9 {
+    animation-duration:3s;
+    top: 91%
+}
+.r0 {
+    animation-duration:19s;
+    top: 99%
+}
