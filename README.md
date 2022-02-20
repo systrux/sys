@@ -1,2 +1,1 @@
-# citrux
-just my first web and yes, i'm hosting it on github...
+# alu3x's web, hosting on github.
